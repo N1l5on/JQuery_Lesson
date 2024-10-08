@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Galeria de Fotos</h1>
+      <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+      <h2>Inserir nova imagem</h2>
+      <input
+        type="url"
+        id="endereço-imagem-nova"
+        required
+        placeholder="URL da imagem"
+      />
+      <button type="submit">Adicionar</button>
+      <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+      <li>
+        <img
+          src="https://www.publicdomainpictures.net/pictures/590000/velka/cat-portrait-oil-painting.jpg"
+          alt="Pintura de um gato"
+        />
+        <div class="overlay-imagem-link">
+          <a
+            href="https://www.publicdomainpictures.net/pictures/590000/velka/cat-portrait-oil-painting.jpg"
+            title="Pintura de um gato"
+            target="_blank"
+          >
+            Ver Imagem em tamanho real</a
+          >
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/00/95/55/86/1000_F_95558684_5nnj2BoXQMOKpfpqxw7vnlG726AWYtTU.jpg"
+          alt="Cão"
+        />
+        <div class="overlay-imagem-link">
+          <a
+            href="https://as1.ftcdn.net/v2/jpg/00/95/55/86/1000_F_95558684_5nnj2BoXQMOKpfpqxw7vnlG726AWYtTU.jpg"
+            title="Cão"
+            target="_blank"
+          >
+            Ver Imagem em tamanho real</a
+          >
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <img
+          src="https://as2.ftcdn.net/v2/jpg/01/77/47/67/1000_F_177476718_VWfYMWCzK32bfPI308wZljGHvAUYSJcn.jpg"
+          alt="Passáro"
+        />
+        <div class="overlay-imagem-link">
+          <a
+            href="https://as2.ftcdn.net/v2/jpg/01/77/47/67/1000_F_177476718_VWfYMWCzK32bfPI308wZljGHvAUYSJcn.jpg"
+            title="Passáro"
+            target="_blank"
+          >
+            Ver Imagem em tamanho real</a
+          >
+        </div>
+      </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
